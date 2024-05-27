@@ -11,6 +11,7 @@ This NLP chatbot serves as a waiter for a Nigerian food restaurant website, hand
    DB_NAME=your_database_name
 2. Run the following command to install the required python packages for your .env file to be used
     'pip install -r requirements.txt'
-3. Run the main.py file using ngrok to generate a https link from your http server connection as diagflow wont be able to connect to your local http link.
-4. Ensure you create an ngrok account before doing this to enable seamless and non frequent reconnection of your generated ngrok https server link.
-5. Have all these files under a folder and within a virtual environment; its an ethic. 
+3. Do not forget to run 'pip install python-dotenv' to be able to enable python to load the credentials contained in your .env file. Read more on this.
+4. Run the main.py file using ngrok to generate a https link from your http server connection as diagflow wont be able to connect to your local http link.
+5. Ensure you create an ngrok account before doing this to enable seamless and non frequent reconnection of your generated ngrok https server link.
+6. Have all these files under a folder and within a virtual environment; its an ethic. 
